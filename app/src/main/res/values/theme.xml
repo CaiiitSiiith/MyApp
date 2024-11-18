@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default theme, baserat på AppCompat -->
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Definiera dina anpassningar här -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--ställ in svart bakgrund-->
+        <item name = "android:windowBackground">@drawable/gradient</item>
+    </style>
+
+</resources>
